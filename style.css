@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 100vh;
+    background: white;
+}
+body {
+    height: 100vh;
+    background: gray;
+}
+footer {
+    height: 100vh;
+    background: white;
+}

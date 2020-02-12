@@ -33,7 +33,7 @@ class Block {
 class Blockchain {
     constructor() {
         this.chain = [this.createGenesisBlock()];
-        this.difficulty = 2;
+        this.difficulty = 4;
         this.pendingTransactions = [];
         this.miningReward = 100;
     }
@@ -111,5 +111,5 @@ zachyCoin.minePendingTransactions('lindz-address');
 
 console.log('\n Balance of lindz is', zachyCoin.getBalanceOfAddress('lindz-address'));
 
-// console.log("Is blockChain valid? " + zachyCoin.isChainValid());
-//console.log(JSON.stringify(zachyCoin, null, 4));
+console.log("Is blockChain valid? " + zachyCoin.isChainValid());
+console.log(JSON.stringify(zachyCoin, null, 4));
